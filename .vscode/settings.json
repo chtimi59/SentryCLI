@@ -1,0 +1,25 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "*.egg-info": true,
+        ".pytest_cache": true,
+        "venv": true
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.linting.mypyEnabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.sortImports.path": "isort",
+    "python.analysis.disabled": [
+        "no-self-argument"
+    ],
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
+}
